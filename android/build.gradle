@@ -1,4 +1,4 @@
-group 'com.yendoplan.openappfile'
+//group 'com.yendoplan.openappfile'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -24,7 +24,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
-    namespace 'dev.edwar.open_app_file'
+    namespace 'com.yendoplan.openappfile'
     
     defaultConfig {
         minSdkVersion 16
